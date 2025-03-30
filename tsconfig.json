@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+
+    "baseUrl": ".",
+
+    "paths": {
+        "@api/*": ["./api/src/*"],
+        "@web/*": ["./web/src/*"],
+        "@core/*": ["./core/src/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "web"
+    },
+    {
+      "path": "api"
+    },
+    {
+      "path": "core"
+    },
+  ]
+}
